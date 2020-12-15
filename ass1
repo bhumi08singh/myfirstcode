@@ -1,0 +1,32 @@
+'Assignment1'
+our_list=[]
+for i in range(2000,3201):
+    if i%5!=0 and i%7==0:
+        our_list.append(i)
+    else:
+        continue
+print(our_list)
+
+'Assignment2'
+First_name=str(input("Enter your first name:\n"))
+Last_name=str(input("Enter your last name:\n"))
+
+First_list=list(First_name)
+Second_list=list(Last_name)
+First_list=First_list[::-1]
+Second_list=Second_list[::-1]
+
+f=""
+l=""
+
+First_name=''.join(First_list)
+Second_name=''.join(Second_list)
+
+user_name=First_name + " " + Second_name
+print(user_name)
+
+'Assignemet3'
+Diameter=12
+radius=Diameter/2
+volume=(4/3)*(22/7)*(radius*radius*radius)
+print(volume)
